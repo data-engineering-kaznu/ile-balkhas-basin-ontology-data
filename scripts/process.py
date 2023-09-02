@@ -13,7 +13,11 @@ def merge_water_comsumption_files():
     for file in file_list:
        df = pd.concat(pd.read_excel( "archive/GBD_Water_Consumption/"+file, sheet_name=None,  skiprows=[0, 2]), ignore_index=True, sort=False)
        outputxlsx = outputxlsx.append( df, ignore_index=True)
-    outputxlsx.to_excel("archive/GBD_Water_Consumption/merged_water_consumption.xlsx", index=False)
+    outputxlsx1 = outputxlsx.iloc[:, :3]
+    outputxlsx2 = outputxlsx1.dropna(axis='rows')
+    outputxlsx2 = outputxlsx2.drop(outputxlsx2[outputxlsx2['Значение'] == '-'].index)
+    outputxlsx2 = outputxlsx2.drop(outputxlsx2[outputxlsx2['Значение'] == 'нб'].index)
+    outputxlsx2.to_excel("archive/GBD_Water_Consumption/merged_water_consumption.xlsx", index=False)
  
 def merge_water_level_files():
     file_path = "archive/GBD_Water_Level_IBB"
@@ -22,7 +26,11 @@ def merge_water_level_files():
     for file in file_list:
        df = pd.concat(pd.read_excel( "archive/GBD_Water_Level_IBB/"+file, sheet_name=None,  skiprows=[0, 2]), ignore_index=True, sort=False)
        outputxlsx = outputxlsx.append( df, ignore_index=True)
-    outputxlsx.to_excel("archive/GBD_Water_Level_IBB/merged_water_level.xlsx", index=False)
+    outputxlsx1 = outputxlsx.iloc[:, :3]
+    outputxlsx2 = outputxlsx1.dropna(axis='rows')
+    outputxlsx2 = outputxlsx2.drop(outputxlsx2[outputxlsx2['Значение'] == '-'].index)
+    outputxlsx2 = outputxlsx2.drop(outputxlsx2[outputxlsx2['Значение'] == 'нб'].index)
+    outputxlsx2.to_excel("archive/GBD_Water_Level_IBB/merged_water_level.xlsx", index=False)
 
 def rename_column(from_name, to_name, resources=None):
     def renamer(rows):
@@ -186,7 +194,7 @@ def clean_population_main():
             if any(row):
                 writer.writerow(row) 
                 
-def ile_balkhas_basin_ontology_process():
+def ili_balkhas_basin_ontology_process():
     merge_water_comsumption_files()
     merge_water_level_files()
     xlsx_to_csv()
@@ -211,7 +219,6 @@ def ile_balkhas_basin_ontology_process():
         rename_column("Код поста", "device_code", "water-level"),
         rename_column("Дата", "date", "water-level"),
         rename_column("Значение", "value", "water-level"),
-        rename_column("Условный знак", "sign", "water-level"),
         update_resource('water-level', path='data/water-level'),
         
         load("data/water_basins_kz_v2.csv", format='csv', name='water-basins-kz'),
@@ -306,7 +313,7 @@ def ile_balkhas_basin_ontology_process():
         update_resource('population-main', path='data/population-main'),
         
         
-        add_metadata(name='water-resources-and-demographics-kz', title='''Water resources and demographics'''),
+        add_metadata(name='ili-balkhash-basin-ontology-data', title='''Ili balkhas basin ontology data'''),
         dump_to_path(),
     )
     flow.process()
@@ -328,6 +335,8 @@ def ile_balkhas_basin_ontology_process():
     os.remove("data/water_regulations_v2.csv")
     os.remove("data/population_main_v1.csv")
     os.remove("data/population_main_v2.csv")
+    os.remove("data/water_consumption_v1.csv")
+    os.remove("data/water_level_v1.csv")
     
 if __name__ == '__main__':
-    ile_balkhas_basin_ontology_process()
+    ili_balkhas_basin_ontology_process()

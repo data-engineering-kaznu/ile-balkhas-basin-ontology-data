@@ -1,10 +1,92 @@
 {
-  "bytes": 35596,
-  "count_of_rows": 758,
-  "hash": "5d5ec7f717f5f00c9bab5b842691804d",
-  "name": "water-resources-and-demographics-kz",
+  "bytes": 3794078,
+  "count_of_rows": 122100,
+  "hash": "49c849a3bc4ff428a7aa4e39cab9f6f8",
+  "name": "ili-balkhash-basin-ontology-data",
   "profile": "data-package",
   "resources": [
+    {
+      "bytes": 1761990,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "5a96136da0534a2e10cb3b72a8b668a4",
+      "name": "water-consumption",
+      "path": "data/water-consumption.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "device_code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "value",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 1996492,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "d1c21eac7300372ed767eeeb0cc1ba78",
+      "name": "water-level",
+      "path": "data/water-level.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "device_code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
     {
       "bytes": 935,
       "dialect": {
@@ -506,5 +588,5 @@
       }
     }
   ],
-  "title": "Water resources and demographics"
+  "title": "Ili balkhas basin ontology data"
 }

@@ -1,4 +1,4 @@
-name: Ile balkhas basin ontology data pipeline
+name: Ile balkhash basin ontology data pipeline
 on:
   push:
     branches:

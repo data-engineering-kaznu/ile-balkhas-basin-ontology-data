@@ -1,4 +1,4 @@
-# Ile balkhas basin ontology data, Republic of Kazakhstan
+# Ili balkhash basin ontology data, Republic of Kazakhstan
 
 ## Data
 
@@ -25,6 +25,8 @@ We have processed the source data to make it normalized and derived from it seve
 * `data/water-classes-quality` - State of the quality of surface waters of Kazakhstan in terms of hydrochemical indicators in April 2006
 * `data/water-regulations` - Hygienic standards for the content of chemicals in water (to control the migration of harmful chemicals from materials and reagents used in the practice of drinking water supply)
 * `data/population-main` - Population since 2000
+* `data/water-consupmtion` - Water consumption by posts since 2000
+* `data/water-level` - Water level by posts since 2000
 
 We have also added some metadata such as column descriptions and [data packaged it][dp].
 
