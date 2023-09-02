@@ -1,0 +1,510 @@
+{
+  "bytes": 35596,
+  "count_of_rows": 758,
+  "hash": "5d5ec7f717f5f00c9bab5b842691804d",
+  "name": "water-resources-and-demographics-kz",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 935,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "2097c1c1ad0f6554a339369397233d6d",
+      "name": "water-basins-kz",
+      "path": "data/water-basins-kz.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Basins",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Square (sq km)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Water_resources_KZ (cubic meter)",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "regions_kz",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "basins_population",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "urban_basins_population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "rural_basins_population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "rivers",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "River_Length_in_Basin",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 1373,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "af86858dbf1f9c7e6fe7c24b28a3025a",
+      "name": "water-basins-lakes",
+      "path": "data/water-basins-lakes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Lakes",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Square, kmÂ²",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "regions",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 470,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "a3cf9a8fea0a6cfe286bc9f9d60e969e",
+      "name": "water-basins-rivers",
+      "path": "data/water-basins-rivers.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Rivers",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "river_length",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "river_length_in_kz",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 803,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "6272a3ea4734b7c371c11e299c99ea8f",
+      "name": "water-basins-water-comsumption",
+      "path": "data/water-basins-water-comsumption.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Rivers",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Rivers_length, km",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "River_fall, m",
+            "type": "integer"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Average_annual_water_consumption, m3/s",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Water_and_energy_resources, Power, thousand kW",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Water and energy resources, Energy, million kWh/year",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 491,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "f39f82d80b6f64b4ffb39ec6f39dc29e",
+      "name": "water-classes",
+      "path": "data/water-classes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "water_quality_characteristics",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Water_pollution_index_wpi",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "domestic_and_drinking_water_use",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "domestic_water_use",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 2305,
+      "description": "Classes and characteristics of water quality according to the value of the complex water pollution index (WPI)",
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "4ccbed38e1c01a1270ca186e6cbbb0e6",
+      "name": "water-classes-objects",
+      "path": "data/water-classes-objects.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "water_objects",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 8126,
+      "description": "State of the quality of surface waters of Kazakhstan in terms of hydrochemical indicators in April 2006",
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "e21ac8b1099726872227ee66979456fa",
+      "name": "water-classes-quality",
+      "path": "data/water-classes-quality.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "rivers",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "regions",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi_april_2005",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi_march_2006",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi_april_2006",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "ingredients_and_indicators",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "avg_concentration_mg/l",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "multiplicity_of_exceeding_the_mpc",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "classes",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "characteristic",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 9801,
+      "description": "Hygienic standards for the content of chemicals in water (to control the migration of harmful chemicals from materials and reagents used in the practice of drinking water supply)",
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "28907734c9cf52e308046c9f61805076",
+      "name": "water-regulations",
+      "path": "data/water-regulations.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "substance_name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "indicator_type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "standards_mpc_not_more_than_mg/l",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "hazard_index",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 11292,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "4684b357c80407b925faf5fad30e01e3",
+      "name": "population-main",
+      "path": "data/population-main.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Water resources and demographics"
+}

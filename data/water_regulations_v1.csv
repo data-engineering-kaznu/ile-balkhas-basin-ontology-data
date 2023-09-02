@@ -1,0 +1,114 @@
+Hygienic standards for the content of chemicals in water (to control the migration of harmful chemicals from materials and reagents used in the practice of drinking water supply),,,,,
+,Substance_name,Indicator type,"Standards (MPC), not more than in mg / l",Hazard index,Class
+1,Total mineralization (dry residue),Generalized indicators,1000,,
+2,general hardness,Generalized indicators,7.0 (mg-eq./L),,
+3,"Oil products, total",Generalized indicators,0.1,,
+4,"Surfactants (SAS), anionic",Generalized indicators,0.5,,
+5,Aluminum (Al3+),Inorganic substances (cations),0.5,Sanitary-toxicological,II class
+6,Ammonia (for nitrogen),Inorganic substances (cations),2,Sanitary-toxicological,III class
+7,Barium (Ba2+),Inorganic substances (cations),0.7,Sanitary-toxicological,II class
+8,Beryllium (Be2+),Inorganic substances (cations),0.0002,Sanitary-toxicological,I class
+9,"Boron (B, total)",Inorganic substances (cations),0.5,Sanitary-toxicological,II class
+10,Vanadium,Inorganic substances (cations),0.1,Sanitary-toxicological,III class
+11,Bismuth,Inorganic substances (cations),0.1,Sanitary-toxicological,II class
+12,Tungsten,Inorganic substances (cations),0.05,Sanitary-toxicological,II class
+13,"Iron (Fe, total)",Inorganic substances (cations),0.3,organoleptically,III class
+14,"Cadmium (Cd, total)",Inorganic substances (cations),0.001,Sanitary-toxicological,II class
+15,Cobalt,Inorganic substances (cations),0.1,Sanitary-toxicological,II class
+16,Silicon,Inorganic substances (cations),10,Sanitary-toxicological,II class
+17,Lithium,Inorganic substances (cations),0.03,Sanitary-toxicological,II class
+18,"Manganese (Mn, total)",Inorganic substances (cations),0.1,organoleptically,III class
+19,"Copper (Cu, total)",Inorganic substances (cations),1,organoleptically,III class
+20,"Molybdenum (Mo, total)",Inorganic substances (cations),0.25,Sanitary-toxicological,II class
+21,"Arsenic (As, total)",Inorganic substances (cations),0.05,Sanitary-toxicological,II class
+22,Sodium,Inorganic substances (cations),200,Sanitary-toxicological,II class
+23,"Nickel (Ni, total)",Inorganic substances (cations),0.1,Sanitary-toxicological,III class
+24,Niobium (Nb),Inorganic substances (cations),0.01,Sanitary-toxicological,II class
+25,"hydrargyrum (Hg, total)",Inorganic substances (cations),0.0005,Sanitary-toxicological,I class
+26,"Plumbum (Pb, total)",Inorganic substances (cations),0.03,Sanitary-toxicological,II class
+27,"Selenium (Se, total)",Inorganic substances (cations),0.01,Sanitary-toxicological,II class
+28,Silver,Inorganic substances (cations),0.05,Sanitary-toxicological,II class
+29,Strontium (Sr2+),Inorganic substances (cations),7,Sanitary-toxicological,II class
+30,Antimony,Inorganic substances (cations),0.05,Sanitary-toxicological,II class
+31,Thallium,Inorganic substances (cations),0.0001,Sanitary-toxicological,I class
+32,Titanium,Inorganic substances (cations),0.1,general sanitary,III class
+33,Phosphorus elemental,Inorganic substances (cations),0.0001,Sanitary-toxicological,I class
+34,Chromium (Cr6+),Inorganic substances (cations),0.05,Sanitary-toxicological,III class
+35,Chromium (Cr3+),Inorganic substances (cations),0.5,Sanitary-toxicological,III class
+36,Zinc (Zn2+),Inorganic substances (cations),5,organoleptically,III class
+37,Bromide - ion,Inorganic substances (anions),0.2,Sanitary-toxicological,II class
+38,Hexanitrocobaltiate ion,Inorganic substances (anions),1,Sanitary-toxicological,II class
+39,Hydrosulfide - ion,Inorganic substances (anions),3,Sanitary-toxicological,II class
+40,Nitrates (according to NO3-),Inorganic substances (anions),45,Sanitary-toxicological,III class
+41,Nitrite - ion,Inorganic substances (anions),3,organoleptically,II class
+42,Hydrogen peroxide,Inorganic substances (anions),0.1,Sanitary-toxicological,II class
+43,persulfate ion,Inorganic substances (anions),0.5,Sanitary-toxicological,II class
+44,Perchlorate - ion,Inorganic substances (anions),5,Sanitary-toxicological,II class
+45,Polyphosphates (according to PO43-),Inorganic substances (anions),3.5,organoleptically,III class
+46,Hydrogen sulfide,Inorganic substances (anions),0.003,organoleptically changes the smell of water,IV class
+47,Sulphates (SO42-),Inorganic substances (anions),500,organoleptically,IV class
+48,Chlorate - ion,Inorganic substances (anions),20,organoleptically gives the water a taste,III class
+49,Rhodanide - ion,Inorganic substances (anions),0.1,Sanitary-toxicological,II class
+50,Ferrocyanide - ion,Inorganic substances (anions),1.25,Sanitary-toxicological,II class
+51,Fluorides (F-),Inorganic substances (anions),1.5,Sanitary-toxicological,II class
+52,Chlorides (Cl-),Inorganic substances (anions),350,organoleptically,IV class
+53,Chlorite - ion,Inorganic substances (anions),0.2,Sanitary-toxicological,III class
+54,Cyanides (CN-),Inorganic substances (anions),5,organoleptically,III class
+55,"Acrylamide (propenamide, acrylic acid, amide)",organic substances,0.0001,Sanitary-toxicological,I class
+56,Acrylic acid,organic substances,0.5,Sanitary-toxicological,II class
+57,Acrylonitrile,organic substances,2,Sanitary-toxicological,II class
+58,Acetaldehyde,organic substances,0.2,organoleptically changes the smell of water,IV class
+59,Acetone (propane-2-one),organic substances,2.2,general sanitary,III class
+60,Acetophenone,organic substances,0.1,Sanitary-toxicological,III class
+61,Benzaldehyde,organic substances,0.003,organoleptically changes the smell of water,IV class
+62,Benz(a)pyrene,organic substances,1e-05,Sanitary-toxicological,I class
+63,Benzyl chloride,organic substances,0.001,Sanitary-toxicological,II class
+64,Benzene,organic substances,0.01,Sanitary-toxicological,II class
+65,Butadiene (divinyl),organic substances,0.05,organoleptically changes the smell of water,IV class
+66,Butyl acrylate (butyl ester of acrylic acid),organic substances,0.01,organoleptically gives the water a taste,IV class
+67,Butyl acetate,organic substances,0.1,general sanitary,IV class
+68,Vinyl acetate,organic substances,0.2,Sanitary-toxicological,II class
+69,"Vinyl chloride (vinyl chloride, chlorethylene)",organic substances,0.005,Sanitary-toxicological,I class
+70,"Hexamethylenediamine (1,6-diaminohexane)",organic substances,0.01,Sanitary-toxicological,II class
+71,"Hydroquinone (1,4-dioxybenzene)",organic substances,0.2,organoleptically gives color to water,IV class
+72,Diallyldimethylammonium chloride (DADMAC),organic substances,0.1,Sanitary-toxicological,III class
+73,dibutyl phthalate,organic substances,0.2,general sanitary,III class
+74,Dimethylamine,organic substances,0.1,Sanitary-toxicological,II class
+75,Dimethyl terephthalate,organic substances,1.5,organoleptically changes the smell of water,IV class
+76,dimethyl phthalate,organic substances,0.3,Sanitary-toxicological,III class
+77,Dioctylphthalate,organic substances,1.6,Sanitary-toxicological,III class
+78,dichlorobenzene,organic substances,0.002,organoleptically changes the smell of water,III class
+79,"Dichloromethane (methylene chloride, methylene chloride)",organic substances,0.02,organoleptically changes the smell of water,III class
+80,"1,3-dichloro-2-propanol",organic substances,1,organoleptically changes the smell of water,III class
+81,"Diphenylolpropane (4,4'-isopropylidene diphenol)",organic substances,0.01,organoleptically gives the water a taste,IV class
+82,Dicyclopentadiene,organic substances,0.015,organoleptically changes the smell of water,IV class
+83,Diphthalate (2-ethylhexyl),organic substances,0.008,Sanitary-toxicological,I class
+84,Diethylenetriamine,organic substances,0.2,organoleptically changes the smell of water,IV class
+85,diethylphthalate,organic substances,3,Sanitary-toxicological,III class
+86,Isoprene,organic substances,0.005,organoleptically changes the smell of water,IV class
+87,Isopropylbenzene (cumene),organic substances,0.1,organoleptically changes the smell of water,III class
+88,E-caprolactam,organic substances,1,general sanitary,IV class
+89,Captax (2-mercaptobenzthiazole),organic substances,5,organoleptically changes the smell of water,IV class
+90,Xylene (dimethylbenzene),organic substances,0.05,organoleptically changes the smell of water,III class
+91,Methyl acrylate (acrylic acid methyl ester),organic substances,0.02,organoleptically changes the smell of water,IV class
+92,Methyl acetate,organic substances,0.1,Sanitary-toxicological,III class
+93,Methyl methacrylate (methacrylic acid methyl ester),organic substances,0.01,Sanitary-toxicological,II class
+94,b-methylstyrene ((1-methylvinyl)benzene),organic substances,0.1,organoleptically gives the water a taste,III class
+95,"Butyl alcohol (butan-1-ol, propylcarbinol)",organic substances,0.1,Sanitary-toxicological,II class
+96,Isobutyl alcohol,organic substances,0.15,Sanitary-toxicological,II class
+97,Isopropyl alcohol,organic substances,0.25,organoleptically changes the smell of water,IV class
+98,Methyl alcohol (methanol),organic substances,3,Sanitary-toxicological,II class
+99,propyl alcohol,organic substances,0.25,organoleptically gives the water a taste,IV class
+100,Styrene (vinylbenzene),organic substances,0.02,organoleptically changes the smell of water,III class
+101,Thiura D (tetramethylthiuram disulfide),organic substances,1,Sanitary-toxicological,II class
+102,Toluene (methylbenzene),organic substances,0.5,organoleptically changes the smell of water,IV class
+103,Trimethylamine,organic substances,0.05,organoleptically changes the smell of water,IV class
+104,Triethanolamine,organic substances,1,organoleptically gives the water a taste,IV class
+105,Phenol (hydroxybenzene),organic substances,0.001,organoleptically changes the smell of water,IV class
+106,Formaldehyde (Methanal),organic substances,0.05,Sanitary-toxicological,II class
+107,Chlorobenzene,organic substances,0.02,Sanitary-toxicological,III class
+108,"Epichlorohydrin (1-chloro-2,3-epoxypropane)",organic substances,0.0001,Sanitary-toxicological,I class
+109,ethyl acetate,organic substances,0.2,Sanitary-toxicological,II class
+110,Ethylbenzene,organic substances,0.002,organoleptically changes the smell of water,IV class
+111,"Ethylenediamine (1,2-diaminoethane)",organic substances,0.2,organoleptically changes the smell of water,IV class
+112,"Ethylene glycol (ethane-1,2-diol)",organic substances,1,Sanitary-toxicological,III class
